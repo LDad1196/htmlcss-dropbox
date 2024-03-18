@@ -13,6 +13,7 @@
 .m-left {
     margin-left: 1rem;
 }
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -93,4 +94,28 @@ nav {
     font-size: 4rem;
     color: black;
     text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 55%;
+}
+
+#sub-year {
+    margin-left: 4rem;
+}
+
+.card-sub {
+    width: calc(100% / 3);
+    min-height: 30rem;
+    background-color: crimson;
+    margin-top: 2rem;
+}
+
+.enter-cont {
+    min-height: 10rem;
+    margin-top: 2rem;
+    background-color: blue;
 }
