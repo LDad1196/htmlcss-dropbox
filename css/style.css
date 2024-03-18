@@ -186,7 +186,7 @@ main {
 .big-box {
     display: flex;
     justify-content: center;
-    color: crimson;
+    color: brown;
     background-color: lightskyblue;
     min-height: 15rem;
     align-content: center;
@@ -218,5 +218,40 @@ main {
     justify-content: space-between;
     min-height: 4rem;
     background-color: aqua
+}
 
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    min-height: 20rem;
+}
+
+.footer-flex {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.footer-column {
+    background-color: blue;
+    border: 2px solid white;
+    width: calc(100% / 5);
+    min-height: 10rem;
+    padding: 2rem 0;
+}
+
+.language {
+    border-top: 2px solid white;
+    background-color: yellow;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.width {
+    width: calc(100% / 5);
 }
