@@ -13,9 +13,9 @@
     <header>
 
         <!-- Nav fixed -->
-        <nav class="flex">
+        <nav class="flex-header">
             <!-- Left section -->
-            <div class="flex space-around m-left">
+            <div class="flex-column space-around">
                 <div>Logo</div>
                 <a class="link-nav" href="#">Perchè Dropbox</a>
                 <a class="link-nav" href="#">Funzioni</a>
@@ -23,7 +23,7 @@
             </div>
             
             <!-- Right section -->
-            <div class="flex space-around m-right">
+            <div class="flex-column space-around">
                 <a class="link-nav" href="#">Supporto</a>
                 <a class="link-nav" href="#">Contatta l'ufficio vendite</a>
                 <a class="link-nav" href="#">Accedi</a>
@@ -32,12 +32,12 @@
         </nav>
 
         <!-- Jumbotron -->
-        <section class="w-60" id="jumbotron">
+        <section id="jumbotron">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-            <div class="flex space-center w-60">
+            <div class="jumbo-flex">
                 <div class="jumbo-text">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro</p>
-                    <button class="btn">Inizia la tua prova gratuita</button>
+                    <p class="m-bottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro</p>
+                    <button class="btn m-bottom">Inizia la tua prova gratuita</button>
                     <p>Annulla in qualsiasi momento</p>
                     <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
                 </div>
@@ -48,24 +48,75 @@
 
     <!-- Main content -->
     <main>
-        <section>
+        <section class="box m-bottom">
             <h2>Trova il piano business che fa per te</h2>
             <form>
                 <input id="sub-month" type="radio"> <label for="sub-month">Fatturazione mensile</label>
                 <input id="sub-year" type="radio"> <label for="sub-year">Fatturazione annuale</label>
             </form>
-
+        </section>
         <!-- Section con card -->
-            <section class="flex space-center">
-                <div class="card-sub"></div>
-                <div class="card-sub"></div>
-                <div class="card-sub"></div>
+            <section>
+                <div class="flex-main">
+                    <div class="card-sub"></div>
+                    <div class="card-sub"></div>
+                    <div class="card-sub"></div>
+                </div>
             </section>
 
-            <div class="enter-cont"></div>
+            <div class="center-cont"></div>
 
-    </section>
     
+    
+    <!-- Box contatto -->
+    <section class="m-top">
+            <div class="flex-main">
+                <div class="photo-box"></div>
+                <div class="text-box"></div>
+            </div>
+            
+    </section>
+
+    <div class="box">
+        <h2 class="m-top m-zero">Esegui più operazioni con Dropbox Business</h2>
+    </div>
+    <!-- Sezione Dropbox Business -->
+    <section class="flex-main wrap space-center m-top-4">
+        <div class="card-business"></div>
+        <div class="card-business"></div>
+        <div class="card-business"></div>
+        <div class="card-business"></div>
+        <div class="card-business"></div>
+        <div class="card-business"></div>
+    </section>
+
+    <div class="box m-top">
+        <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+        <a class="m-top-2" href="#">Scopri di più sui nostri clienti</a>
+    </div>
+
+    <section class="logo-flex">
+        <div class="logo-card"></div>
+        <div class="logo-card"></div>
+        <div class="logo-card"></div>
+    </section>
+
+    <div class="big-box">
+        <div class="title-box"> 
+            <h3>Porta Dropbox nella tua azienda.</h3>
+        </div>
+        <div>
+            <button class=" particular-btn">Inizia la tua prova gratuita</button>
+        </div>
+    </div>
+
+
+    <section class="faq-box">
+        <h2 class="m-bottom">Domande frequenti</h2>
+        <div class="faq-column"></div>
+        <div class="faq-column"></div>
+        <div class="faq-column"></div>
+    </section>
     </main>
 
     <!-- Footer -->

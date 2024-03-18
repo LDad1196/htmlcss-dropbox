@@ -6,24 +6,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.m-right {
-    margin-right: 1rem;
-}
-
-.m-left {
-    margin-left: 1rem;
-}
-
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     gap: 2rem;
-}
-
-.space-around {
-    justify-content: space-around;
 }
 
 .btn {
@@ -36,20 +24,16 @@ h1 {
     font-size: 4rem;
 }
 
-p {
-    padding: 2rem 0;
+h2 {
+    font-size: 3rem;
 }
 
-.space-center {
-    justify-content: center;
+h3 {
+    font-size: 3rem;
 }
 
-.w-60 {
-    width: 60%;
-}
-
-.w-50 {
-    width: 50%;
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* Header section */
@@ -57,6 +41,13 @@ header {
     background-color: lightskyblue;
 }
 
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
 /* Nav */
 nav {
     background-color: white;
@@ -75,17 +66,43 @@ nav {
     border-bottom: 3px solid black;
 }
 
+.flex-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
 /* Jumbotron */
 
 #jumbotron {
     margin: 0 auto;
     padding-top: 6rem;
     padding-bottom: 2rem;
+    width: 70%;
 }
 
+.m-bottom {
+    margin-bottom: 2rem;
+}
+
+.m-top {
+    margin-top: 2rem;
+}
+.jumbo-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 2rem;
+}
+
+.pad-bot-2 {
+    padding-bottom: 2 rem;
+}
 .jumbo-img {
     background-color: crimson;
-    min-height: 30rem;
+    min-height: 20rem;
     width: 200%;
 }
 
@@ -99,23 +116,107 @@ nav {
 /* Main */
 main {
     padding: 2rem 0;
+}
+
+.flex-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     margin: 0 auto;
-    width: 55%;
+    width: 60%;
+}
+
+.box {
+    margin: 0 auto;
+    width:60%;
 }
 
 #sub-year {
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 
 .card-sub {
-    width: calc(100% / 3);
+    width: calc(98% / 3);
     min-height: 30rem;
     background-color: crimson;
-    margin-top: 2rem;
+    margin: 1rem 0;
+    border: 2px solid black;
 }
 
-.enter-cont {
+.center-cont {
     min-height: 10rem;
-    margin-top: 2rem;
     background-color: blue;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid black;
+}
+
+.photo-box {
+    width: 50%;
+    min-height: 15rem;
+    background-color: blue;
+}
+
+.text-box {
+    width: 50%;
+    min-height: 15rem;
+    background-color: crimson;
+}
+
+.card-business {
+    width: calc(97% / 3);
+    min-height: 15rem;
+    background-color: blue;
+    margin: 1rem 0;
+}
+
+.logo-flex {
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.logo-card {
+    width: calc(100% / 3);
+    min-height: 30rem;
+    background-color: green;
+}
+
+.big-box {
+    display: flex;
+    justify-content: center;
+    color: crimson;
+    background-color: lightskyblue;
+    min-height: 15rem;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.title-box {
+    width: 50%;
+}
+
+.particular-btn {
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+.faq-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.faq-column {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    min-height: 4rem;
+    background-color: aqua
+
 }
