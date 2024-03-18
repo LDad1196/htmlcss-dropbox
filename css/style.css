@@ -3,4 +3,94 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.m-right {
+    margin-right: 1rem;
+}
+
+.m-left {
+    margin-left: 1rem;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(0, 97, 255) ;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    padding: 2rem 0;
+}
+
+.space-center {
+    justify-content: center;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* Header section */
+header {
+    background-color: lightskyblue;
+}
+
+/* Nav */
+nav {
+    background-color: white;
+    min-height: 5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem 0;
+}
+
+.link-nav:hover {
+    border-bottom: 3px solid black;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.jumbo-img {
+    background-color: crimson;
+    min-height: 30rem;
+    width: 200%;
+}
+
+.fa-arrow-down {
+    padding: 2rem 0;
+    font-size: 4rem;
+    color: black;
+    text-decoration: none;
 }
