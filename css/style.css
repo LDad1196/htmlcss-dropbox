@@ -158,7 +158,7 @@ main {
 
 .card-sub {
     width: 30%;
-    min-height: 55rem;
+    min-height: 57rem;
     margin: 1rem 0;
     border: 2px solid black;
 }
@@ -240,6 +240,7 @@ main {
     width: 100%;
 }
 
+/* Business cards */
 .text-box {
     width: 45%;
     min-height: 15rem;
@@ -247,11 +248,14 @@ main {
 
 .card-business {
     width: calc(97% / 3);
-    min-height: 20rem;
-    background-color: blue;
     margin: 1rem 0;
 }
 
+.business-png {
+    width: 100%;
+}
+
+/* Box con sponsor */
 .logo-flex {
     display: flex;
     margin-top: 2rem;
@@ -262,12 +266,66 @@ main {
     width: calc(100% / 3);
     min-height: 30rem;
     background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
 }
 
+.logo-text {
+    width: calc(100% / 3);
+    height: 30rem;
+    background-color: grey;
+}
 
-.background {
+.logo-box {
+    width: 50%;
+    height: 50%;
+}
+
+.lightgreen {
+    background-color: #a2d39b;
+}
+
+.beige {
+    background-color: #61082b;
+}
+
+.blue {
+    background-color: #0093ce;
+}
+
+.red {
+    background-color: #ff1c1c;
+}
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.crimson {
+    background-color: #d5001f;
+}
+
+.logo-box:hover {
+    border: 1rem solid lightgrey;
+}
+
+.lightskyblue {
     background-color: lightskyblue;
 }
+
+.logo-img {
+    width: 50% ;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    fill: white;
+}
+
+/* Lightskyblue Box */
 .big-box {
     display: flex;
     justify-content: space-between;
@@ -277,7 +335,7 @@ main {
     align-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 .title-box {
@@ -290,28 +348,49 @@ main {
     padding: 5px;
 }
 
+/* Sezione faq */
 .faq-box {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
+    padding-top: 3rem;
 }
 
 .faq-column {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     min-height: 4rem;
-    background-color: aqua
 }
 
+.faq-left {
+    width: 90%;
+}
+
+.faq-right {
+    width: 10%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.faq-right:hover{
+    transform: rotate('180deg');
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.hidden:hover {
+    opacity: 1;
+}
 /* Footer */
 footer {
     background-color: black;
     color: white;
     margin-top: 3rem;
-    min-height: 20rem;
 }
 
 .footer-flex {
@@ -321,16 +400,16 @@ footer {
 }
 
 .footer-column {
-    background-color: blue;
-    border: 2px solid white;
     width: calc(100% / 5);
-    min-height: 10rem;
     padding: 2rem 0;
 }
 
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
 .language {
-    border-top: 2px solid white;
-    background-color: yellow;
     padding: 2rem 0;
     margin: 0 auto;
     display: flex;
@@ -338,6 +417,8 @@ footer {
     width: 70%;
 }
 
-.width {
+.language-box {
     width: calc(100% / 5);
+    border-top: 2px solid white;
+    padding-top: 1rem;
 }
