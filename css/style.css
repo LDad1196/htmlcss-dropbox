@@ -28,6 +28,9 @@ h2 {
     font-size: 3rem;
 }
 
+h3 {
+    font-size: 2.5rem;
+}
 h4 {
     font-size: 1.4rem;
 }
@@ -217,16 +220,29 @@ main {
     width: 70%;
 }
 
+/* Partner box */
+.flex-partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 4rem 0;
+}
+
+
 .photo-box {
     width: 50%;
     min-height: 15rem;
-    background-color: blue;
+}
+
+.png-partner {
+    width: 100%;
 }
 
 .text-box {
-    width: 50%;
+    width: 45%;
     min-height: 15rem;
-    background-color: crimson;
 }
 
 .card-business {
@@ -248,15 +264,20 @@ main {
     background-color: green;
 }
 
+
+.background {
+    background-color: lightskyblue;
+}
 .big-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: brown;
     background-color: lightskyblue;
     min-height: 15rem;
     align-content: center;
     align-items: center;
-    margin-bottom: 4rem;
+    margin: 0 auto;
+    width: 40%;
 }
 
 .title-box {
