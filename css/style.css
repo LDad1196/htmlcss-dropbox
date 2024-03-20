@@ -89,9 +89,10 @@ nav {
 
 #jumbotron {
     margin: 0 auto;
-    padding-top: 6rem;
     padding-bottom: 2rem;
     width: 70%;
+    position: relative;
+    top: 6.5rem;
 }
 
 .m-bottom {
@@ -100,6 +101,10 @@ nav {
 
 .m-top {
     margin-top: 2rem;
+}
+
+.m-top-4 {
+    margin-top: 4rem;
 }
 .jumbo-flex {
     display: flex;
@@ -113,8 +118,6 @@ nav {
 
 .jumbo-text {
     width: 30%;
-    position:relative;
-    top: 3rem
 }
 .jumbo-img {
     width: 70%;
@@ -122,8 +125,6 @@ nav {
 
 .jumbo-png {
     width: 100%;
-    position: relative;
-    top: 4rem;
 }
 
 .fa-arrow-down {
@@ -158,7 +159,7 @@ main {
 
 .card-sub {
     width: 30%;
-    min-height: 57rem;
+    min-height: 52rem;
     margin: 1rem 0;
     border: 2px solid black;
 }
@@ -192,7 +193,7 @@ main {
 }
 
 
-.li-card {
+li {
     list-style: none;
 }
 
@@ -223,17 +224,21 @@ main {
 /* Partner box */
 .flex-partner {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 60%;
     padding: 4rem 0;
+    gap: 2rem;
 }
 
 
 .photo-box {
-    width: 50%;
-    min-height: 15rem;
+    width: 55%;
+}
+
+.text-box {
+    width: 45%;
 }
 
 .png-partner {
@@ -259,28 +264,30 @@ main {
 .logo-flex {
     display: flex;
     margin-top: 2rem;
-
+    min-height: 20rem;
 }
 
 .logo-card {
     width: calc(100% / 3);
-    min-height: 30rem;
-    background-color: green;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
     
 }
 
 .logo-text {
     width: calc(100% / 3);
-    height: 30rem;
-    background-color: grey;
+    background-color: lightgrey;
+    border: 1rem solid lightgrey;
 }
 
 .logo-box {
     width: 50%;
-    height: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lightgreen {
@@ -320,11 +327,13 @@ main {
 
 .logo-img {
     width: 50% ;
-    margin-top: 3rem;
-    margin-left: 5rem;
-    fill: white;
+    filter: invert(100%);
 }
 
+.border {
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
 /* Lightskyblue Box */
 .big-box {
     display: flex;
@@ -354,7 +363,6 @@ main {
     flex-direction: column;
     margin: 0 auto;
     width: 50%;
-    padding-top: 3rem;
 }
 
 .faq-column {
@@ -362,7 +370,9 @@ main {
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
-    min-height: 4rem;
+    align-items: center;
+    min-height: 8rem;
+    flex-wrap: wrap;
 }
 
 .faq-left {
@@ -371,20 +381,19 @@ main {
 
 .faq-right {
     width: 10%;
-    margin-top: 2rem;
     font-size: 1.5rem;
 }
 
 .faq-right:hover{
-    transform: rotate('180deg');
+    transform: rotate(180deg);
 }
 
 .hidden {
-    opacity: 0;
+    display: none;
 }
 
 .hidden:hover {
-    opacity: 1;
+    display: block;
 }
 /* Footer */
 footer {
